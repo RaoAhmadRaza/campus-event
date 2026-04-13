@@ -1,0 +1,6 @@
+node_modules/
+.parcel-cache/
+.git/
+dist/
+Dockerfile
+.DS_Store
