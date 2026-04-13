@@ -2,10 +2,7 @@
   "name": "campus-events",
   "version": "1.0.0",
   "description": "",
- feature/gallery
-=======
-
- main
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
