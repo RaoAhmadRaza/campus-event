@@ -105,3 +105,15 @@ footer {
     gap: 16px;
   }
 }
+
+.role-badge {
+  display: inline-block;
+  background-color: var(--accent);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
