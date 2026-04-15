@@ -597,3 +597,43 @@ p {
     }
   }
 }
+/* --- Packages Page Specific Styles --- */
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.package-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.package-card h3 {
+    margin-top: 0;
+    color: var(--accent);
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.event-date {
+    font-weight: 600;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.package-card p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.package-card p:last-child {
+    margin-bottom: 0;
+    margin-top: auto; /* Pushes the price to the bottom of the card */
+}
